@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+button {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+/*# sourceMappingURL=groupUsers.css.map */

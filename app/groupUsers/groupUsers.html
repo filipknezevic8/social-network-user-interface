@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Group Users</title>
+    <link rel="stylesheet" href="../../dist/groupUsers/groupUsers.css">
+</head>
+<body>
+    <h1>Group Members</h1>
+
+    <div class="input-container">
+        <label for="groupId">Group ID:</label>
+        <input type="number" id="groupId" placeholder="Enter group ID">
+        <button id="loadBtn">Load members</button>
+    </div>
+
+    <p id="no-data-message" class="hidden">No users found in this group.</p>
+
+    <div id="table-details">
+        <table>
+            <thead class="hidden">
+                <tr>
+                    <th>Username</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Birth Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dinamički sadržaj -->
+            </tbody>
+        </table>
+    </div>
+
+    <button id="backBtn">Back</button>
+
+    <script src="groupUsers.js"></script>
+</body>
+</html>
